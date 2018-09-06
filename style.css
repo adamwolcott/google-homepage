@@ -1,0 +1,30 @@
+div{
+    display: block;
+}
+#top-bar div{
+    display: inline;
+}
+a{
+    color: black;
+    font-family: sans-serif;
+    font-size:12px;
+    text-decoration: none;
+}
+#logo{
+    text-align: -webkit-center;   
+}
+#top-bar{
+    position: relative;
+
+    padding: 15px 90px 175px 90px;
+
+}
+#l_bar, #r_bar{
+    position: absolute;
+}
+#r_bar{
+    right: 20px;
+}
+#l_bar{
+    left: 20px;
+}
