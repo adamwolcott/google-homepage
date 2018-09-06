@@ -4,20 +4,24 @@ div{
 #top-bar div{
     display: inline;
 }
+#tlink{
+    padding: 0 8px;
+}
 a{
     color: black;
-    font-family: sans-serif;
+    font-family: Arial;
     font-size:12px;
     text-decoration: none;
 }
-#logo{
+#middle-page{
     text-align: -webkit-center;   
+}
+#logo{
+    margin-bottom: 20px;
 }
 #top-bar{
     position: relative;
-
     padding: 15px 90px 175px 90px;
-
 }
 #l_bar, #r_bar{
     position: absolute;
@@ -27,4 +31,29 @@ a{
 }
 #l_bar{
     left: 20px;
+}
+#search div{
+    display: inline;
+}
+#search{
+    position: relative;
+    width: 545px;
+    border: solid;
+    border-color: lightgray;
+    border-width: 0.25px;
+    border-radius: 2px;
+    padding: 0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+#search:hover{
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+#search input{
+    width: 400px;
+    outline: none;
+    border-style: none;
+}
+#mic{
+    width: 25px;
+    height: 25px;
 }
