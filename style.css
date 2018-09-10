@@ -14,6 +14,7 @@ a{
     text-decoration: none;
 }
 #middle-page{
+    text-align: center;
     text-align: -webkit-center;
 }
 #logo{
@@ -59,6 +60,7 @@ a{
 }
 #bottom-page{
     text-align: center;
+    text-align: -webkit-center;
     padding-top: 30px;
 }
 #bottom-page div{
