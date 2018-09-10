@@ -14,7 +14,7 @@ a{
     text-decoration: none;
 }
 #middle-page{
-    text-align: -webkit-center;   
+    text-align: -webkit-center;
 }
 #logo{
     margin-bottom: 20px;
@@ -56,4 +56,17 @@ a{
 #mic{
     width: 25px;
     height: 25px;
+}
+#bottom-page{
+    text-align: center;
+    padding-top: 30px;
+}
+#bottom-page div{
+    display: inline;
+}
+#gsearch{
+    padding-right: 10px;
+}
+#lucky{
+    padding-left: 10px;
 }
