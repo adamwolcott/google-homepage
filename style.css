@@ -59,6 +59,7 @@ a{
     height: 25px;
 }
 #bottom-page{
+    text-align: center;
     text-align: -webkit-center;
     padding-top: 30px;
 }
