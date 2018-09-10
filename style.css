@@ -27,7 +27,7 @@ a{
     position: relative;
     padding: 15px 90px 175px 90px;
 }
-#r_bar, #l_bar{    
+#top-bar #r_bar,#top-bar #l_bar{    
     position: absolute;
 }
 #r_bar{
@@ -76,6 +76,7 @@ a{
     padding-left: 10px;
 }
 #bottom-bar #l_bar, #bottom-bar #r_bar{
+    position: absolute;
     background-color: lightgray;
     bottom: 0;
 }
